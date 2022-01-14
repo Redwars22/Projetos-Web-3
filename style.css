@@ -14,7 +14,8 @@ h1 {
 }
 
 .l-row {
-    display: flex;
+    display: grid;
+    grid-template-columns: 50% 50%;
     justify-content: center;
     max-width: 75%;
     gap: 25px;
