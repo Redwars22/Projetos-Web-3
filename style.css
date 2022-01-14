@@ -1,0 +1,26 @@
+.l-row {
+    display: flex;
+    justify-content: center;
+    max-width: 75%;
+    gap: 25px;
+}
+
+.l-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.app-icon {
+    width: 90px;
+    margin: 10px;
+}
+
+.app-title {}
+
+.app-description {}
+
+.technologies {
+    color: rgb(0, 110, 253);
+}
