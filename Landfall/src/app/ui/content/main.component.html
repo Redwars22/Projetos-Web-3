@@ -1,0 +1,35 @@
+<div class="main">
+  <div class="color-editor">
+    <div class="editor-container">
+      <div class="form-layout">
+        <div class="form-element">
+          <label for="">Código HEX</label>
+          <input id="hex-code-field" placeholder="#fff" />
+        </div>
+
+        <div class="form-element">
+          <label for="">Legenda</label>
+          <input id="label-field" placeholder="cor primária" />
+        </div>
+
+        <div class="buttons-container-2">
+          <button (click)="previewColor()">
+            <i class="material-icons">visibility</i>
+          </button>
+          <button (click)="addColor()">
+            <i class="material-icons">add</i>
+          </button>
+        </div>
+      </div>
+      <div class="color-preview-container">
+        <div class="color-preview" id="color-preview"></div>
+        <span class="color-code-show" id="color-code-show">#fff</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="color-library">
+    <h1 class="orange-title">Biblioteca de cores salvas</h1>
+    <div class="color-library-items" id="library-items"></div>
+  </div>
+</div>

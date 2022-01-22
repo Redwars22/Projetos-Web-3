@@ -1,0 +1,67 @@
+header {
+  background-color: #383736e3;
+  padding: 7px;
+  padding-bottom: 2px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.39);
+  box-shadow: 2px 2px 16px 8px rgba(56, 55, 54, 0.77);
+}
+
+.upper-bar {
+  display: grid;
+  grid-template-columns: 5% auto 30%;
+  align-items: center;
+}
+
+p {
+  font-size: 12px;
+}
+
+.author-badge {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+  gap: 5px;
+}
+
+.author-badge-link {
+  margin-left: auto;
+  text-decoration: none;
+}
+
+.author-photo {
+  border-radius: 5px;
+}
+
+.author-name {
+  font-size: 12px;
+}
+
+.mac-ui-button {
+  border-radius: 100%;
+  border: none;
+  height: 10px;
+  width: 10px;
+  margin: 3px;
+  padding: 6px;
+}
+
+.red-btn {
+  background-color: #f6705d;
+}
+
+.yellow-btn {
+  background-color: #fbd202;
+}
+
+.green-btn {
+  background-color: #3cbe36;
+}
+
+.menu-button {
+  background-color: inherit;
+  border: none;
+}

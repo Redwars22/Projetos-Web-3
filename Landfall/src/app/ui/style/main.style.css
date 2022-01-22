@@ -1,0 +1,115 @@
+.main {
+  background-color: #5d5d5d7e;
+  min-height: 499px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: grid;
+  grid-template-columns: 80% 20%;
+  box-shadow: 2px 2px 16px 8px rgba(56, 55, 54, 0.77);
+}
+
+.color-editor,
+.color-library {
+  max-height: 499px;
+}
+
+.color-editor {
+  display: grid;
+  place-items: center;
+  background-image: url('https://i2.wp.com/files.123freevectors.com/wp-content/original/110652-colorful-blurred-background-vector.jpg');
+  background-size: cover;
+  border-bottom-left-radius: 10px;
+}
+
+.editor-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: right;
+  background-color: #7473735e;
+  padding: 45px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 16px 8px rgba(56, 55, 54, 0.77);
+}
+
+.color-library {
+  background-color: #353535e3;
+  border-left: 1px solid rgba(255, 255, 255, 0.712);
+}
+
+.color-preview {
+  width: 100px;
+  min-height: 100px;
+  max-height: 100px;
+  background-color: white;
+  border: 3px solid grey;
+  border-radius: 10px;
+}
+
+.color-preview-container {
+  text-align: center;
+  margin-left: 40px;
+}
+
+.form-element {
+  display: grid;
+  grid-template-columns: 40% 70%;
+  margin: 10px;
+}
+
+.buttons-container-2 {
+  display: flex;
+  justify-content: center;
+}
+
+label {
+  margin-right: 10px;
+}
+
+button {
+  background-color: orangered;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+button:hover {
+  border: 3px solid white;
+}
+
+input {
+  border: none;
+  border-radius: 5px;
+  padding: 3px;
+  color: white;
+  font-size: 16px;
+  background-color: rgb(100, 86, 80);
+}
+
+input:focus {
+  border: 2px solid orangered;
+}
+
+.orange-title {
+  border-top: 2px solid orange;
+  font-size: 14px;
+  width: fit-content;
+}
+
+.color-library {
+  padding: 5px;
+  overflow: auto;
+  max-height: 490px;
+  border-bottom-right-radius: 10px;
+}
+
+.color-prev-box {
+  border-radius: 10px;
+}
+
+.color-library-items {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-row-gap: 10px;
+  margin-left: 25px;
+}
