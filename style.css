@@ -7,6 +7,9 @@
 header {
     text-align: center;
     margin-bottom: 25px;
+    padding: 20px;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 10px;
 }
 
 h1 {
@@ -43,4 +46,11 @@ h1 {
 
 .disabled {
     filter: saturate(0%);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid lightgray;
+    margin-top: 10px;
 }
