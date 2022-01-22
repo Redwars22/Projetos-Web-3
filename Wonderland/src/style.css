@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;200;300;400;500;600;700&display=swap');
+
+body {
+  background-image: url('https://wallpaperaccess.com/full/942745.jpg');
+  background-size: cover;
+  margin: 0px;
+  padding-top: 29px;
+  padding-left: 63px;
+  padding-right: 63px;
+}
+
+/*Propriedades globais*/
+
+* {
+  color: #3d85c6;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.btn,
+input {
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: bolder;
+}
+
+input {
+  text-align: center;
+  width: 150px;
+}

@@ -1,0 +1,20 @@
+.css-editor {
+  border-top: 2px solid #092b4d;
+  border-bottom: 2px solid #092b4d;
+  min-height: 150px;
+  overflow: auto;
+  padding: 5px;
+  color: darkviolet;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.css-editor-info {
+  font-size: 12px;
+  background-color: dodgerblue;
+  padding: 5px;
+}
+
+p {
+  color: white;
+}

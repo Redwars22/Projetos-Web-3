@@ -1,0 +1,36 @@
+.upper-bar-container {
+  display: grid;
+  grid-template-columns: 5% auto;
+  text-align: center;
+  background-color: #000b1b;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 5px;
+  align-items: center;
+  box-shadow: 5px 5px 25px 18px #000B1B;
+}
+
+.round-button {
+  border-radius: 50%;
+  height: 5px;
+  width: 5px;
+  border: none;
+  padding: 6px;
+  margin: 3px;
+}
+
+.red-btn {
+  background-color: #f7705d;
+}
+
+.green-btn {
+  background-color: #02be36;
+}
+
+.yellow-btn {
+  background-color: #ffd200;
+}
+
+.app-title {
+  color: white;
+}

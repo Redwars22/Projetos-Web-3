@@ -1,0 +1,19 @@
+.image-area-container {
+  width: 100%;
+  max-width: inherit;
+  max-height: 490px;
+  background-color: rgba(0, 11, 27, 0.8);
+  display: grid;
+  overflow: auto;
+}
+
+.image-area {
+  background-image: url('https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png');
+  background-size: cover;
+  min-width: 719px;
+  min-height: 410px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}

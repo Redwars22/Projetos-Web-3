@@ -1,0 +1,21 @@
+.author-badge-container {
+  display: flex;
+  padding-right: 5px;
+  margin-left: auto;
+  align-items: center;
+}
+
+.author-photo {
+  width: 37px;
+  border-radius: 50%;
+  margin-left: 8px;
+}
+
+.author-name {
+  color: white;
+  font-size: small;
+}
+
+a {
+  margin-left: auto;
+}

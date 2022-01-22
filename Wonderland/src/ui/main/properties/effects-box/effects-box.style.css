@@ -1,0 +1,15 @@
+.horizontal-form-component {
+  /*display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;*/
+  display: grid;
+  grid-template-columns: 70% 30%;
+  align-items: center;
+}
+
+.vertical-form-component {
+  display: flex;
+  flex-direction: column;
+}

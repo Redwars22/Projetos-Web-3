@@ -1,0 +1,20 @@
+.left-toolbar {
+  height: 490px;
+  max-width: 51px;
+  padding: 10px;
+  background-color: #000b1b;
+  border-bottom-left-radius: 10px;
+}
+
+.material-icons {
+  font-size: 25px;
+  color: white;
+}
+
+.toolbar-button {
+  background-color: #000b1b;
+  color: white;
+  border: none;
+  margin-left: -2px;
+  margin-bottom: 15px;
+}

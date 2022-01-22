@@ -1,0 +1,34 @@
+.lower-bar-container {
+  max-height: 47px;
+  min-width: 100%;
+  background-color: #001628;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.app-logo {
+  width: 45px;
+}
+
+.insert-url-container {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.url-box {
+  min-width: 675px;
+  max-height: 40px;
+  color: #3d85c6;
+  font-size: 12px;
+  text-align: left;
+  font-weight: 200;
+}
+
+.url-button {
+  max-height: 40px;
+  margin-left: 10px;
+}
