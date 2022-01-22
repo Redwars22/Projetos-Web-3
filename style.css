@@ -37,10 +37,10 @@ h1 {
     margin: 10px;
 }
 
-.app-title {}
-
-.app-description {}
-
 .technologies {
     color: rgb(0, 110, 253);
+}
+
+.disabled {
+    filter: saturate(0%);
 }
