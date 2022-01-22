@@ -11,10 +11,10 @@
 </div>
 
 </br>
- Esse é o meu segundo repositório de projetos web (HTML, PHP, ReactJS, CSS, JS e Angular). Para que o outro repositório não ficasse tão grande e também para que as coisas ficassem mais organizadas, resolvi criar este. Visite os meus outros repositórios de projetos web [AQUI]() e [AQUI](https://github.com/Redwars22/Web2).
+ Esse é o meu segundo repositório de projetos web (HTML, PHP, ReactJS, CSS, JS e Angular). Para que o outro repositório não ficasse tão grande e também para que as coisas ficassem mais organizadas, resolvi criar este. Visite os meus outros repositórios de projetos web [AQUI](https://github.com/Redwars22/Portfolio) e [AQUI](https://github.com/Redwars22/Web2).
 
 
- This is my second repository for web projects (HTML, PHP, ReactJS, CSS, JS, and Angular). I decided to create this repository so that my other one wouldn't get large and also to keep things organized.Visit my other repositories of web projects [HERE]() and [HERE](https://github.com/Redwars22/Web2).
+ This is my second repository for web projects (HTML, PHP, ReactJS, CSS, JS, and Angular). I decided to create this repository so that my other one wouldn't get large and also to keep things organized.Visit my other repositories of web projects [HERE](https://github.com/Redwars22/Portfolio) and [HERE](https://github.com/Redwars22/Web2).
  
  # PROJETOS/PROJECTS
  
