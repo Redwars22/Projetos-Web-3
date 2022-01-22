@@ -20,11 +20,9 @@
  
  ![BANNER 2](https://user-images.githubusercontent.com/26885598/149515863-9a3b85e4-bb51-44b6-98db-48bbffbfc073.png)
  
- ***Clique no ícone para executar a aplicação em seu navegador.***
- ***Click on the icon to run the app in your webbrowser.***
+ [CLIQUE AQUI PARA VER A LISTA DE PROJETOS](https://redwars22.github.io/Projetos-Web-3/)
  
- | Icon | Name | Technology | Description |
- |--- |--- |--- |--- |
+ [CLICK HERE TO SEE THE PROJECTS LIST](https://redwars22.github.io/Projetos-Web-3/)
  
  <!--
   TEMPLATE:
