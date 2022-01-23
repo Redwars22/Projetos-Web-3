@@ -4,6 +4,11 @@
     font-family: 'JetBrains Mono', monospace;
 }
 
+body {
+    margin: 25px;
+    background-color: floralwhite;
+}
+
 header {
     text-align: center;
     margin-bottom: 25px;
