@@ -1,0 +1,17 @@
+.navbar-container {
+  margin-top: 25px;
+}
+
+.navbar-link {
+  color: #cc0000;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.no-margin {
+  margin-left: 0px;
+}
+
+.navbar-link:hover {
+  color: #e71818;
+}

@@ -1,0 +1,29 @@
+.number {
+  color: #7d7d7d;
+  font-size: 120px;
+}
+
+.main {
+  margin-top: 112px;
+  display: grid;
+  place-content: center;
+  text-align: center;
+}
+
+.form {
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: 80% 30%;
+  align-items: center;
+}
+
+input {
+  max-width: 90px;
+  background-color: #1f1e1e;
+  color: red;
+  border: none;
+  border-radius: 5px;
+  font-size: 19px;
+  padding: 5px;
+  text-align: center;
+}
