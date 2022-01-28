@@ -45,6 +45,10 @@ h1 {
     margin: 10px;
 }
 
+.app-icon:hover {
+    filter: saturate(200%) brightness(200%);
+}
+
 .technologies {
     color: rgb(0, 110, 253);
 }
