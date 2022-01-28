@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="module" src="https://unpkg.com/@fluentui/web-components"></script>
+    <script src="logic.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img class="app-logo" src="https://redwars22.github.io/Projetos-Web-3/resx/behemoth.png" width="50px" />
+        <nav>
+            <button onclick="window.open('https://redwars22.notion.site/Ajuda-do-Project-Behemoth-5dc6ce32541a448982dfc3bda7f6400b')" class="link-button">Ajuda</button>
+            <button onclick="aboutBox()" class="link-button">Sobre</button>
+            <button onclick="window.open('mailto:andrewpereira.megabyte@gmail.com')" class="link-button">Feedback</button>
+            <button onclick="window.open('https://project-landfall.firebaseapp.com/')" class="link-button">Salvar
+                códigos no Landfall</button>
+            <button onclick="window.open('https://redwars22.github.io/Projetos-Web-3/')" class="link-button">Mais Projetos</button>
+        </nav>
+        <a href="https://github.com/Redwars22">
+            <div class="author-badge">
+                <span class="author-name">Criado por André Pereira</span>
+                <img class="author-photo" src="https://github.com/Redwars22.png" width="25px" />
+            </div>
+        </a>
+    </header>
+
+    <main>
+        <h1 class="info">ESCOLHA HEX OU RGB PARA GERAR UMA COR ALEATÓRIA</h1>
+        <center>
+            <fluent-button appearance="accent" onclick="generate_HEX()">GERAR COR(HEX)</fluent-button>
+            <fluent-button appearance="accent" onclick="generate_RGB()">GERAR COR(RGB)</fluent-button>
+        </center>
+        <div id="square"></div>
+        <h1><span id="code-show"></span></h1>
+    </main>
+</body>
+
+</html>
