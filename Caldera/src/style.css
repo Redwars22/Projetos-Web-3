@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+:root {
+  --light-green: #6aa84f;
+  --dark-green: #163021;
+}
+
+body {
+  color: var(--dark-green);
+  background-color: var(--dark-green);
+  margin: 0px;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+@media (max-width: 480px) {
+  .column-layout {
+    display: grid;
+    grid-template-columns: 17% 83%;
+  }
+}
+
+@media (min-width: 481px) {
+  .column-layout {
+    display: grid;
+    grid-template-columns: 5% 95%;
+  }
+}
+
+.column,
+.column-layout {
+  min-height: calc(100vh - 4%);
+  max-height: calc(100vh - 4%);
+}
+
+.left-side {
+  background-color: var(--light-green);
+  display: flex;
+}
+
+Button:hover {
+  background-color: var(--light-green);
+}
