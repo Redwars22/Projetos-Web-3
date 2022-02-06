@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
+
+body {
+  margin: 5px;
+  margin-left: 25px;
+  margin-right: 25px;
+  box-shadow: 0px 0px 2px 0px white;
+  font-family: 'Stick', sans-serif;
+  max-height: 98vh;
+  /*background-color: black;*/
+  background-image: url('https://live.staticflickr.com/65535/23722064434_22bff36b2d_b.jpg');
+  background-size: cover;
+  border-radius: 10px;
+  color: rgb(253, 155, 28);
+}
+
+header, nav {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  opacity: 0.9;
+}
+
+main{
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 30px;
+  background-color: #080400;
+  opacity: 0.8;
+}
+
+.left-bar {
+  background-color: rgb(53, 28, 4)/*#f1c230a6*/;
+  padding: 10px;
+  max-height: 100%;
+  border-bottom-left-radius: 10px;
+}
+
+.right-bar {
+  background-color: #080400;
+  padding: 10px;
+  overflow: auto;
+  max-height: 88vh;
+  border-bottom-right-radius: 30px;
+}
+
+.row {
+  min-height: 91.5%;
+}
+
+.flag {
+  border-radius: 3px;
+}
+
+.country-container {
+  align-items: center;
+  display: flex;
+  gap: 5px;
+  margin-top: 25px;
+}
+
+.button-group {
+  min-width: 100%;
+  margin-top: 10px;
+}
+
+hr {
+  border: 1px solid #c8c8c8;
+  width: 100%;
+}
+
+.with-top-margin {
+  margin-top: 140%;
+  min-width: 100%;
+}
+
+.round-photo {
+  border-radius: 50%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar-brand {
+  align-items: center;
+  display: flex;
+  gap: 5px;
+}
+
+h1 {
+  text-align: center;
+  margin: 15px;
+}
+
+tr {
+  align-items: center;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 60%;
+  padding: 10px;
+  background-color: #e2e3e5;
+}
+
+#country-name {
+  font-weight: 400;
+}
