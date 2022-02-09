@@ -1,6 +1,6 @@
 //Salvar dados na memória
 
-function saveData() {
+function saveData(){
   let countryName = $("#country-name").text();
   let countryFlag = $(".flag").attr("src");
   let population = $("#population").attr("value");
@@ -16,6 +16,7 @@ function saveData() {
   let climate = $("#climate").attr("value");
   let gdp = $("#gdp").attr("value");
   let water = $("#water").attr("value");
+  let currency = $("#currency").attr("value");
 
   localStorage.setItem("country-name", countryName);
   localStorage.setItem("country-flag", countryFlag);
@@ -32,11 +33,12 @@ function saveData() {
   localStorage.setItem("climate", climate);
   localStorage.setItem("gdp", gdp);
   localStorage.setItem("water", water);
+  localStorage.setItem("currency", currency);
 }
 
 //Recuperar dados já salvos na memória
 
-function retrieveData() {
+function retrieveData(){
   let countryName = localStorage.getItem("country-name");
   let countryFlag = localStorage.getItem("country-flag");
   let population = localStorage.getItem("population");
@@ -52,6 +54,7 @@ function retrieveData() {
   let climate = localStorage.getItem("climate");
   let gdp = localStorage.getItem("gdp");
   let water = localStorage.getItem("water");
+  let currency = localStorage.getItem("currency");
 
   $("#country-name").text(countryName);
   $(".flag").attr("src", countryFlag);
@@ -68,10 +71,11 @@ function retrieveData() {
   $("#climate").attr("value", climate);
   $("#gdp").attr("value", gdp);
   $("#water").attr("value", water);
+  $("#currency").attr("value", currency);
 }
 
 //Apagar dados da memória (localStorage) e limpar os campos de texto
-function emptyAllInputs() {
+function emptyAllInputs(){
   $("#country-name").text("Nome do País");
   $("#population").attr("value", "");
   $("#altitude").attr("value", "");
@@ -86,14 +90,15 @@ function emptyAllInputs() {
   $("#climate").attr("value", "");
   $("#gdp").attr("value", "");
   $("#water").attr("value", "");
+  $("#currency").attr("value", "");
 }
 
-function clearData() {
+function clearData(){
   let deleteEverythingOrNot = confirm(
     "Tem certeza de que deseja deletar TUDO?! ISSO É IRREVERSÍVEL!!!!"
   );
 
-  if (deleteEverythingOrNot) {
+  if(deleteEverythingOrNot){
     localStorage.removeItem("country-name");
     localStorage.removeItem("population");
     localStorage.removeItem("altitude");
@@ -108,6 +113,7 @@ function clearData() {
     localStorage.removeItem("climate");
     localStorage.removeItem("gdp");
     localStorage.removeItem("water");
+    localStorage.removeItem("currency");
 
     emptyAllInputs();
   }

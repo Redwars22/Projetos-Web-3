@@ -8,6 +8,14 @@
     <link rel="stylesheet" href="style.css">
     <script src="logic.js"></script>
     <script src="dataHandling.js"></script>
+    <script>
+      $(function(){
+        $("header").hide();
+        $("main").hide();
+        $("header").fadeIn("slow");
+        $("main").fadeIn("slow");
+      });
+    </script>
   </head>
 
   <body>
@@ -16,7 +24,7 @@
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img src="https://redwars22.github.io/Projetos-Web-3/resx/kaleidoscop.png" alt="" width="32" height="32" class="d-inline-block align-text-top light">
-            Kaleidoscop(BETA)
+            Kaleidoscop
           </a>
           <div>
             <a href="https://github.com/Redwars22" class="link-dark">Criado por André Pereira(@Redwars22)</a>
@@ -45,9 +53,6 @@
               <button type="button" class="btn btn-outline-warning" onclick="helpPage()"><i class="bi bi-question-octagon"></i> Ajuda </button>
               <button type="button" class="btn btn-outline-warning" onclick="aboutBox()"><i class="bi bi-info-square"></i> Sobre</button>
             </div>
-            <!--<div class="with-top-margin">
-              <button type="submit" class="btn btn-outline-secondary"><i class="bi bi-download"></i> Baixar como RTF</button>
-            </div>-->
           </div>
 
           <div class="col w-100 right-bar">
@@ -143,8 +148,6 @@
                     $max_temp_summer = 54;
                     $average_temp_summer = rand($min_temp_summer, $max_temp_summer);
                     $average_temp = rand($average_temp_winter, $average_temp_summer);
-                    /*$max_temp = 54;
-                    $average_temp = rand($min_temp, $max_temp);*/
 
                     echo "<input class='form-control' id='average-temperature' value='".$average_temp."ºC'></input>";
                   ?>
@@ -216,11 +219,10 @@
                   </td>
                   <td>
                   <?php 
-                    /*$min_pop = 100;
-                    $max_pop = 1900000;
-                    $population = rand($min_pop, $max_pop);*/
+                    $currency = rand(0, 99);
+                    $cents = rand(10, 99);
 
-                    echo "<input class='form-control' id='' value="."NULL"."></input>";
+                    echo "<input class='form-control' id='currency' value='".$currency.",".$cents."'></input>";
                   ?>
                   <td>
                 </tr>
