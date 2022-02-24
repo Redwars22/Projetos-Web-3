@@ -1,0 +1,64 @@
+.step2 {
+  margin-top: 10px;
+  filter: saturate(0%);
+  text-align: center;
+}
+
+hr {
+  border: 0.5px solid var(--foreground);
+  width: 95%;
+  opacity: 15%;
+  margin-top: 5px;
+}
+
+label {
+  margin-right: 25px;
+  text-align: right;
+  align-self: center;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  margin: 20px;
+  border: 3px dashed rgba(248, 248, 203, 0.1);
+  padding: 10px;
+}
+
+input {
+  border: 3px solid rgba(0, 0, 0, 0);
+  margin: 10px;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: crimson;
+  color: white;
+  font-size: 14px;
+  font-family: 'JetBrains Mono', monospace;
+  min-width: auto;
+}
+
+input:hover {
+  border: 3px dashed crimson;
+}
+
+@media (min-width: 1000px) {
+  form {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin: 60px 50px 20px 50px;
+    padding: 10px 100px 10px 100px;
+  }
+}
+
+button {
+  margin: 3px;
+  border: none;
+  padding: 10px;
+  background-color: var(--foreground);
+  color: white;
+  border-radius: 8px;
+}
+
+button:hover {
+  background-color: crimson;
+}
