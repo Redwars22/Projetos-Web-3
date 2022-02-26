@@ -1,4 +1,6 @@
-# Projetos-Web-3
+# Projetos Web 3
+
+ ![BANNER 2](https://user-images.githubusercontent.com/26885598/155862186-11a0ae6f-8072-46f5-a6fb-825918bb04b1.png)
 
 <div>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" width="60px"/>
@@ -18,12 +20,10 @@
  
  # PROJETOS/PROJECTS
  
- ![BANNER 2](https://user-images.githubusercontent.com/26885598/149515863-9a3b85e4-bb51-44b6-98db-48bbffbfc073.png)
- 
  [CLIQUE AQUI PARA VER A LISTA DE PROJETOS](https://redwars22.github.io/Projetos-Web-3/)
  
  [CLICK HERE TO SEE THE PROJECTS LIST](https://redwars22.github.io/Projetos-Web-3/)
- 
+
  <!--
   TEMPLATE:
 | <a href=""><img src="" width="55px"/></a> | **AppName** | HTML, CSS etc | Text Editor |
